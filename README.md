@@ -40,6 +40,11 @@ Frontend: `http://localhost:5173`
 Backend: `http://localhost:8000`  
 OpenAPI: `http://localhost:8000/docs`
 
+## Создание пользователя админа с данными из .env
+'''bash
+run file in docker apps/backend/app/cli.py
+'''
+
 ## Создание устройства
 
 Через страницу **Устройства** или API после входа:
